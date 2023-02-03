@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    border: 2px dotted red;
+    margin: 20px;
+    padding: 10px 20px 2px 5px;
+}
+div{
+    width: 80%;
+    height: 400px;
+}
+.images{
+    border: 1px solid yellowgreen;
+    image-rendering: pixelated;
+    width: 10%;
+    height: 30%;
+    object-fit: scale-down;
+    object-position: top;
+}
+#images{
+    border: 2px solid blue;
+    width: 20%;
+    height: 30%;
+}
+table{
+    border: 5px solid blue;
+    margin: 30px;
+    padding: 15px;
+}
+caption{
+    border:10px solid magenta;
+    margin: 10px;
+    padding: 0%;
+
+}
+
