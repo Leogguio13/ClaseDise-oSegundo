@@ -11,3 +11,4 @@ if(true){
 }
 
 console.log(numero2);
+console.log(numero2);
