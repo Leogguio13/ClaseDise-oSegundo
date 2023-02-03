@@ -9,8 +9,8 @@
 </head>
 <body>
     <h1>Formularios</h1>
-    <form action="" id="form" method="">
-        <label for="name">Nombres</label> <!--Todo input lleva un label, se asocia con el id y siempre en minusculas-->
+    <form action="./received.php" id="form" method="post">
+       <label for="name">Nombres</label> <!--Todo input lleva un label, se asocia con el id y siempre en minusculas-->
        <input type="text" 
        id="name" 
        name="name"
@@ -18,7 +18,7 @@
        placeholder="Ingrese su nombre:" 
        maxlength="25" 
        minlength="3" 
-       pattern="[a-zA-Z]"
+       
        required
        title="Error en datos"
        autofocus="true"
@@ -34,9 +34,12 @@
         <label for="fecha"></label>
         <input type="date" id="fecha" placeholder="Ingrese fecha"><br><br>
         <input type="color"><br><br>
+        <label for="mes">Mes</label>
+        <input type="month" id="mes" list="datalist">
         <datalist id="datalist">
             <option value="Enero"></option>
-            <option value="Febreo"></option>
+            <option value="Febrero"></option>
+            <option value="Marzo"></option>
         </datalist>
         <hr>
         <fieldset> <!--Seleccionar una opcion-->
@@ -62,9 +65,11 @@
         <label for="termino">¿Acepta términos y condiciones?</label>
         <input type="checkbox" id="termino" name="termino">
         <input type="button" value="Enviar">
-        <button id="enviar" type="submit"> enviar datos </button>
+        
+        <input type="submit" id="envio" value="Enviar">
     </form>
-
+    
+    <button id="enviar" type="submit"> enviar datos </button>
     <script src="./main.js"></script>
 </body>
 </html>
