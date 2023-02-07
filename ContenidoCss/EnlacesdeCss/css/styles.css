@@ -1,0 +1,47 @@
+/*
+1.Selector por etiqueta: cambia el estilo a todas las etiquetas
+2.Selector por clase: cambia i modifica el estilo de quien coloque el 
+nombre del estilo en el atributo class
+3.Selector por Id: modifica el estilo de quienes posean el atributo id
+4. selector Universal*
+5.Selector por atributo
+6.Selector por sufijo
+7.Selector por prefijo
+8.Seleccion de hermanos es por el cosito encima de la ñ
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 90%;
+    height: 200px;
+    padding: 3px;
+    text-align: center;
+    margin: 1%;
+    font-size: 20px;
+    
+    }
+.titulo{
+    border: 2px double blue;
+    background-color: antiquewhite;
+    text-align: right;
+    padding: 5px;
+}
+a[href]{
+    text-align: left;
+    margin-left: 4%;
+    color: chocolate;
+}/*este es para sufijos*/
+a[href$=".co"]{
+    color: darkgreen;
+    padding: 10px;
+}
+/*este es para prefijos*/
+[class^="ca"]{
+    background: blueviolet;
+}
