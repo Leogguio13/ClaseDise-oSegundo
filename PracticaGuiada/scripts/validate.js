@@ -8,7 +8,7 @@ const validateAvg =(num)=>{
     return response;
 }
 const checkAvg =(value) =>{
-    let result = (value>3 && value <=5) ? "aprobado":"reprobado";
+    let result = (value>3 && value <=5) ? "APROBADO":"REPROBADO";
     return result;
 }
-export { validateString, validateAvg as vAvg}
+export { validateString, validateAvg as vAvg, checkAvg}

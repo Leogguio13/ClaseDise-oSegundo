@@ -29,7 +29,7 @@ body{
     width: 100%;
 }
 .form{
-    width: 40%;
+    width: 50%;
     height: auto;
     margin: 5% auto;
     border-radius: 10 px;
@@ -63,7 +63,7 @@ body{
     background: linear-gradient(top, #f22e76, #f25757);    
     background: linear-gradient(to bottom, #f22e76, #f25757);
     border-radius: 28px;
-    color: #fff;
+    color: #ffff;
     font-size: 20px;
     padding: 10px 20px;
     border: 2px solid #f2b366;
@@ -75,7 +75,7 @@ body{
     background: linear-gradient(to bottom, #f2db63, #f2b366);
     text-decoration: none;
 }
-.cards{
+.card{
     width: 60%;
     margin: 5% auto;
     border: 2px solid #f22e76;
@@ -103,15 +103,15 @@ body{
 }
 .alerta{
     width: 25%;
-    height: 100%;
+    height: auto;
     background-color: #f25757;
     position: fixed;
     top: 35%;
-    left: 35%;
+    left: 40%;
     margin: 0 auto;
     text-align: center;
     border-radius: 7%;
-    border: 2px solid #3C3D59;
+    border: 3px solid #3C3D59;
 }
 .textAlerta{
     width: 100%;
@@ -137,8 +137,8 @@ body{
 @media screen and (max-width: 500px){
     .form{
         width: 70%;
-        margin: 1px solid #1ebe5b;
-        padding: 15px 5px;
+        margin: 1px auto 3% auto;
+        border: 1px solid #1ebe5b;      
     }
     .form > input, label, button, select{
         margin: 2% 0;
